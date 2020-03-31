@@ -52,8 +52,12 @@
         window.alert('kurang');
     }
 
-    else {
+    else if(value <55) {
         window.alert('Remedial');
+    } 
+
+    else {
+        window.alert('Max Nilai hanya 100')
     }
 
     console.log('Stop Program Checking Value');
